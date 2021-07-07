@@ -1,0 +1,5 @@
+src/**/*-test.js
+dist
+mock
+vendor
+node_modules

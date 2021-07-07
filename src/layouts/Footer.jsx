@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default () => {
-    return (<div>footer</div>);
-}
+  return (<div>footer</div>);
+};

@@ -1,0 +1,26 @@
+.logo{
+    height: 50px;
+}
+.hidden {
+  display: none !important;
+}
+.ct-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ct-social-box {
+  display: inline-flex;
+  flex-wrap: var(--wrap, wrap);
+  margin-top: calc(var(--spacing, 15px) * -1);
+  margin-left: calc(var(--spacing, 15px) / -2);
+  margin-right: calc(var(--spacing, 15px) / -2);
+}
+.ct-icon,
+.ct-icon-container svg {
+    position: relative;
+    width: var(--icon-size, 15px);
+    height: var(--icon-size, 15px);
+    fill: var(--icon-color, var(--color));
+    transition: var(--icon-transition, fill 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955))
+}
